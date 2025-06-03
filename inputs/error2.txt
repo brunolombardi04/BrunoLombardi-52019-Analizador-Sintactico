@@ -1,0 +1,5 @@
+int main { // Error sintáctico: faltan paréntesis ()
+    int = 42; // Error sintáctico: falta identificador
+    if x > 0  // Error sintáctico: faltan paréntesis y llaves
+        printf("x es positivo");
+    return;   // Error sintáctico: falta valor de retorno

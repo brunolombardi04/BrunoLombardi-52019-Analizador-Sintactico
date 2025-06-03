@@ -1,0 +1,5 @@
+int main() {
+    int x = 42;
+    printf("El valor es: %d", x);
+    return 0;
+}

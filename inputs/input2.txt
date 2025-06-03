@@ -1,0 +1,24 @@
+/* Función factorial recursiva */
+int factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+/* Función principal con bucle y cálculos */
+int main() {
+    int num = 5;
+    int result = factorial(num);
+    printf("El factorial de %d es: %d", num, result);
+    
+    // Calcular suma de 1 a num usando while
+    int i = 1;
+    int sum = 0;
+    while (i <= num) {
+        sum = sum + i;
+        i = i + 1;
+    }
+    printf("La suma de 1 a %d es: %d", num, sum);
+    return 0;
+}

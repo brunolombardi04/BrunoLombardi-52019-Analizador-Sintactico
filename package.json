@@ -1,0 +1,19 @@
+{
+  "name": "analizador-c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "antlr4": "^4.13.2",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "readline-sync": "^1.4.10"
+  }
+}
