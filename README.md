@@ -1,7 +1,17 @@
 # Analizador C a JavaScript
+Estimado/a profesor/a:
+
+A continuación le presento una guía paso a paso para la correcta ejecución del trabajo práctico desarrollado con ANTLR4 y JavaScript, junto con ejemplos funcionales que permiten comprobar tanto el funcionamiento correcto del analizador como el manejo de errores sintácticos
 
 Este analizador traduce un subconjunto del lenguaje C a JavaScript, utilizando ANTLR4 para el análisis léxico y sintáctico.
+Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
+Requisitos:
+
+Git: Para clonar el repositorio. Descarga Git
+Node.js: Para ejecutar la aplicación. Descarga Node.js
+Java: Necesario para compilar la gramática con ANTLR. Descarga Java
+ANTLR4: Descarga el archivo JAR desde ANTLR
 ## Demostración de Funcionamiento
 
 ### Ejemplo 1: Código C válido
@@ -231,5 +241,8 @@ analizador-c-js/
 5. Crear Pull Request
 
 ## Licencia
+Para dibujar el arbol
+Al pulsar F5 en el archivo CParser.g4 genera el arbol
+![image](https://github.com/user-attachments/assets/1fec0147-6dcf-40e7-9dda-483be649fef1)
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
