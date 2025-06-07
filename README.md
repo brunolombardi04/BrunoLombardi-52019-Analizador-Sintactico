@@ -231,5 +231,8 @@ analizador-c-js/
 5. Crear Pull Request
 
 ## Licencia
+Para dibujar el arbol
+Al pulsar F5 en el archivo kdgramatica.g4 genera el arbol
+![image](https://github.com/user-attachments/assets/1fec0147-6dcf-40e7-9dda-483be649fef1)
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detalles.
