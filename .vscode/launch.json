@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ANTLR4: Debug C Grammar Parse Tree",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "inputs/input1.txt", // <-- ¡¡¡ESTA LÍNEA ES LA QUE CAMBIASTE!!!
+            "grammar": "grammar/CParser.g4",
+            "startRule": "program", // Asegúrate que 'program' sea tu regla inicial. Si no, cámbiala.
+            "printParseTree": true,
+            "visualParseTree": true,
+        }
+    ]
+}
