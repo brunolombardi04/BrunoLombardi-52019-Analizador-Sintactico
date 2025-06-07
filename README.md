@@ -1,5 +1,7 @@
 # Analizador C a JavaScript
+Estimado/a profesor/a:
 
+A continuación le presento una guía paso a paso para la correcta ejecución del trabajo práctico desarrollado con ANTLR4 y JavaScript, junto con ejemplos funcionales que permiten comprobar tanto el funcionamiento correcto del analizador como el manejo de errores sintácticos
 Este analizador traduce un subconjunto del lenguaje C a JavaScript, utilizando ANTLR4 para el análisis léxico y sintáctico.
 Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 Requisitos:
